@@ -14,9 +14,13 @@ body {
     flex-direction: column;
     background-color: black;
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,13 +56,13 @@ main {
 
 /* reduce experience title margin and padding */
 .experience-title{
-    padding: 0;
-    margin: 1rem;
+    padding: 1rem 0 0.2rem 0;
+    margin: 1rem 0 0 0;
 }
 
 /* reduce natural margins of experience dates */
 .experience-date{
-    padding: 0;
+    padding: 0 0 0 1rem;
     margin: 0;
 }
 
