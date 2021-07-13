@@ -1,0 +1,178 @@
+:root {
+    --primary: none;
+    --secondary: none;
+    --tertiary: none;
+    --quaternary: none;
+    --quinary: none;
+    --container-width: 90%;
+  }
+
+/* Materialize */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+li{
+    list-style-type: circle;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Sets the top three details to be in line */
+.header-subtitle-list li{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Space out the nav elements so they don't look like one line of contact details */
+.nav-item{
+    margin-left: 5px;
+}
+
+
+
+/* indent experience objects a little from section titles */
+.experience-element{
+    margin-left: 1rem;
+}
+
+/* reduce experience title margin and padding */
+.experience-title{
+    padding: 0;
+    margin: 1rem;
+}
+
+/* reduce natural margins of experience dates */
+.experience-date{
+    padding: 0;
+    margin: 0;
+}
+
+/* indent the subtitle category */
+.experience-subtitle{
+    margin-left: 2rem;
+}
+
+/* set details for experience items */
+.experience{
+    list-style-type: disc;
+    font-size: large;
+    margin-left: 2.4rem;
+    /* space out the list elements from each other */
+    padding: 3px 0 3px 0;
+}
+
+/* heft up the education details */
+.education-detail{
+    font-weight: 600;
+    margin: 0;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+/* float the intitute right */
+.education-institute{
+    float: right;
+}
+
+/* heft up the skill details  */
+.skill-detail{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 0;
+    margin-left: 2rem;
+}
+/* move the skill level to the right */
+.skill-level{
+    float: right;
+}
+
+/* add bottom padding to page */
+#skills{
+    padding-bottom: 5rem;
+}
+
+
+/* override width of container */
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: var(--container-width);
+  }
+  @media only screen and (min-width: 601px) {
+    .container {
+      width: var(--container-width);
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .container {
+      width: var(--container-width);
+    }
+  }
+
+/* || Color override section */
+.prim_bg_color {
+    background-color: var(--primary) !important;
+}
+.seco_bg_color {
+background-color: var(--secondary) !important;
+}
+.tert_bg_color {
+background-color: var(--tertiary) !important;
+}
+.quad_bg_color {
+background-color: var(--quaternary) !important;
+}
+.quin_bg_color {
+background-color: var(--quinary) !important;
+}
+  
+.prim_text_color {
+color: var(--primary) !important;
+}
+.seco_text_color {
+color: var(--secondary) !important;
+}
+.tert_text_color {
+color: var(--tertiary) !important;
+}
+.quad_text_color {
+color: var(--quaternary) !important;
+}
+.quin_text_color {
+    color: var(--quinary) !important;
+}
+  
+  /* label color */
+  .input-field label {
+      color: var(--tertiary) !important;
+    }
+    /* label focus color */
+    .input-field input[type=text]:focus + label {
+      color: var(--tertiary) !important;
+    }
+    /* label underline focus color */
+    .input-field input[type=text]:focus {
+      border-bottom: 1px solid var(--tertiary) !important;
+      box-shadow: 0 1px 0 0 var(--tertiary) !important;
+    }
+    /* valid color */
+    .input-field input[type=text].valid {
+      border-bottom: 1px solid var(--tertiary) !important;
+      box-shadow: 0 1px 0 0 var(--tertiary) !important;
+    }
+    /* invalid color */
+    .input-field input[type=text].invalid {
+      border-bottom: 1px solid var(--tertiary) !important;
+      box-shadow: 0 1px 0 0 var(--tertiary) !important;
+    }
+    /* icon prefix focus color */
+    .input-field .prefix.active {
+      color: var(--tertiary) !important;
+    }
