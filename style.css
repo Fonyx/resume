@@ -16,7 +16,7 @@ body {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 li{
@@ -39,7 +39,7 @@ main {
 .header-subtitle-list li{
     display: inline-block;
     text-align: center;
-    font-size: 16px;
+    font-size: medium;
 }
 
 /* Space out the nav elements so they don't look like one line of contact details */
@@ -74,7 +74,7 @@ main {
 /* set details for experience items */
 .experience{
     list-style-type: disc;
-    font-size: large;
+    font-size: medium;
     margin-left: 2.4rem;
     /* space out the list elements from each other */
     padding: 3px 0 3px 0;
@@ -84,7 +84,7 @@ main {
 .education-detail{
     margin: 0;
     margin-left: 2rem;
-    font-size: 1.4rem;
+    font-size: medium;
 }
 /* float the intitute right */
 .education-institute{
