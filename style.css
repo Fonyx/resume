@@ -1,7 +1,7 @@
 :root {
     --primary: #787A76;
     --secondary: #04060A;
-    --tertiary: #ACB1B6;
+    --tertiary: #828282;
     --quaternary: #d1141e;
     --quinary: #EFEDEF;
     --container-width: 90%;
@@ -64,6 +64,7 @@ main {
 .experience-date{
     padding: 0 0 0 1rem;
     margin: 0;
+    font-size: 1.5rem;
 }
 
 /* indent the subtitle category */
@@ -71,20 +72,14 @@ main {
     margin-left: 2rem;
 }
 
-/* set details for experience items */
-.experience{
-    list-style-type: disc;
-    font-size: medium;
-    margin-left: 2.4rem;
-    /* space out the list elements from each other */
-    padding: 3px 0 3px 0;
-}
-
 /* heft up the education details */
 .education-detail{
-    margin: 0;
+    /*font-size: 1.4rem;*/
     margin-left: 2rem;
-    font-size: medium;
+    margin-bottom: 6px;
+    margin-right: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
 }
 /* float the intitute right */
 .education-institute{
@@ -93,9 +88,7 @@ main {
 
 /* heft up the skill details  */
 .skill-detail{
-    font-size: 1.4rem;
-    margin: 0;
-    margin-left: 2rem;
+
 }
 /* move the skill level to the right */
 .skill-level{
@@ -158,30 +151,50 @@ color: var(--quaternary) !important;
     color: var(--quinary) !important;
 }
   
-  /* label color */
-  .input-field label {
-      color: var(--tertiary) !important;
-    }
-    /* label focus color */
-    .input-field input[type=text]:focus + label {
-      color: var(--tertiary) !important;
-    }
-    /* label underline focus color */
-    .input-field input[type=text]:focus {
-      border-bottom: 1px solid var(--tertiary) !important;
-      box-shadow: 0 1px 0 0 var(--tertiary) !important;
-    }
-    /* valid color */
-    .input-field input[type=text].valid {
-      border-bottom: 1px solid var(--tertiary) !important;
-      box-shadow: 0 1px 0 0 var(--tertiary) !important;
-    }
-    /* invalid color */
-    .input-field input[type=text].invalid {
-      border-bottom: 1px solid var(--tertiary) !important;
-      box-shadow: 0 1px 0 0 var(--tertiary) !important;
-    }
-    /* icon prefix focus color */
-    .input-field .prefix.active {
-      color: var(--tertiary) !important;
-    }
+/* label color */
+.input-field label {
+  color: var(--tertiary) !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: var(--tertiary) !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid var(--tertiary) !important;
+  box-shadow: 0 1px 0 0 var(--tertiary) !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid var(--tertiary) !important;
+  box-shadow: 0 1px 0 0 var(--tertiary) !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid var(--tertiary) !important;
+  box-shadow: 0 1px 0 0 var(--tertiary) !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: var(--tertiary) !important;
+}
+
+.experience-details ul li {
+    list-style-type: disc;
+    font-size: medium;
+    margin-left: 2.4rem;
+    /* space out the list elements from each other */
+    padding: 3px 0 3px 0;
+}
+
+#education p {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    margin: 0 0 6px 2rem;
+}
+
+#skills p {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    margin: 0 0 6px 2rem;
+}
