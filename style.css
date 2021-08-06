@@ -35,6 +35,11 @@ main {
     flex: 1 0 auto;
 }
 
+a {
+  color: var(--quaternary);
+  text-decoration: underline;
+}
+
 /* Sets the top three details to be in line */
 .header-subtitle-list li{
     display: inline-block;
@@ -197,4 +202,8 @@ color: var(--quaternary) !important;
     color: var(--secondary);
     font-size: 1.2rem;
     margin: 0 0 6px 2rem;
+}
+
+#logo-container {
+  text-decoration: none;
 }
